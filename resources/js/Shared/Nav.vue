@@ -1,12 +1,23 @@
 <template>
-    <nav>
-        <ul>
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/users">Users</Link></li>
-            <li><Link href="/settings">Settings</Link></li>
-            <li><Link href="/logout" method="post" as="button">Logout</Link></li>
-        </ul>
-    </nav>
+    <!-- Navbar start -->
+        <nav class="navbar">
+            <div class="navbar-content">
+                <button id="toggle-sidebar-btn" class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+            <a href="#" class="navbar-brand ml-10 ml-sm-20">
+                <span class="d-none d-sm-flex">Logo PH</span>
+            </a>
+            <div class="navbar-content ml-auto">
+                <button class="btn btn-action mr-5" type="button" onclick="halfmoon.toggleDarkMode()">
+                    <i class="far fa-moon" aria-hidden="true"></i>
+                    <span class="sr-only">Toggle dark mode</span>
+                </button>
+                <a href="#" class="btn btn-primary" role="button">Login</a>
+            </div>
+        </nav>
+        <!-- Navbar end -->
 </template>
 <script>
 import { Link } from '@inertiajs/inertia-vue3';

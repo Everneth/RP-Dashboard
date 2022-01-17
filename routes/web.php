@@ -31,12 +31,6 @@ Route::get('/players', function () {
         'players' => Player::paginate(20)
     ]);
 });
-/*
-Route::get('players', function(){
-    return view('players', [
-        'players' => Player::all()
-    ]);
-});*/
 
 Route::get('guilds', function(){
     return view('guilds', [

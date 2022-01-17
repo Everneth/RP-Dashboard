@@ -3,6 +3,8 @@ import { createInertiaApp, Link, Head } from "@inertiajs/inertia-vue3";
 import { InertiaProgress } from "@inertiajs/progress";
 import Layout from "./Shared/Layout";
 
+require("halfmoon/css/halfmoon-variables.min.css");
+
 createInertiaApp({
   resolve: name => {
     let page = require(`./Pages/${name}`).default;
@@ -26,3 +28,16 @@ createInertiaApp({
 });
 
 InertiaProgress.init();
+
+// Include CSS file
+
+/*
+  Or,
+  Include the following (no variables, supports IE11):
+  require("halfmoon/css/halfmoon.min.css");
+*/
+
+// Import JS library
+const halfmoon = require("halfmoon");
+
+halfmoon.onDOMContentLoaded();
