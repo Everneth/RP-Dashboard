@@ -61,7 +61,7 @@
     <!-- Sidebar end -->
     
         <!-- Content wrapper start -->
-        <div class="content-wrapper">
+        <div class="content-wrapper p-10">
             <slot />
         </div>
         <!-- Content wrapper end -->

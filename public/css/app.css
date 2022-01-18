@@ -4707,34 +4707,34 @@ The above notice must be included in its entirety when this file is used.
 .dark-mode .badge.badge-guild-red {
     color: #fff;
     background-color: #ff5555;
-    border-color: #ff5555;
+    border-color: #a30000;
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
 }
 .badge.badge-guild-red {
     color: #fff;
     background-color: #ff5555;
-    border-color: #ff5555;
+    border-color: #a30000;
 }
 
 .badge.badge-guild-yellow {
     color: rgba(0,0,0,.85);
     background-color: #ffff55;
-    border-color: #ffff55;
+    border-color: #a0a000;
 }
 
 .dark-mode .badge.badge-guild-yellow {
     background-color: #ffff55;
-    border-color: #ffff55;
+    border-color: #a0a000;
 }
 
 .badge.badge-guild-purple {
     color: rgba(0,0,0,.85);
     background-color: #aa00aa;
-    border-color: #aa00aa;
+    border-color: #500150;
 }
 
 .dark-mode .badge.badge-guild-purple {
     background-color: #aa00aa;
-    border-color: #aa00aa;
+    border-color: #500150;
 }

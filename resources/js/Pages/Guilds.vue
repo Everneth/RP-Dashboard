@@ -1,7 +1,7 @@
 <template>
 <div class="container-fluid">
     <div class="row">
-        <h1 class="col-8 pl-10">Guilds</h1>
+        <h1 class="col-8">Guilds</h1>
         <form class="form-inline d-md-flex ml-auto" action="..." method="get">
             <input v-model="search" type="text" class="form-control align-middle" placeholder="Search..." />
         </form>

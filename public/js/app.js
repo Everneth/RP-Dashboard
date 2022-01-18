@@ -19468,7 +19468,7 @@ var _hoisted_2 = {
 };
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "col-8 pl-10"
+  "class": "col-8"
 }, "Guilds", -1
 /* HOISTED */
 );
@@ -19546,6 +19546,49 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Map.vue?vue&type=template&id=6ffb2f43":
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Map.vue?vue&type=template&id=6ffb2f43 ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "container-fluid"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+  "class": "col-8"
+}, "Map")], -1
+/* HOISTED */
+);
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "alert alert-danger filled-dm",
+  role: "alert"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h4", {
+  "class": "alert-heading"
+}, "Map is currently unavailable"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" The RP map is not currently in use and any plugins to make it possible are not currently installed. This map may become available sometime in the future once we are fully prepared to launch it. ")])], -1
+/* HOISTED */
+);
+
+var _hoisted_4 = [_hoisted_2, _hoisted_3];
+function render(_ctx, _cache) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_4);
+}
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Players.vue?vue&type=template&id=09baf119":
 /*!************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Players.vue?vue&type=template&id=09baf119 ***!
@@ -19567,7 +19610,7 @@ var _hoisted_2 = {
 };
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "col-8 pl-10"
+  "class": "col-8"
 }, "Players", -1
 /* HOISTED */
 );
@@ -19678,10 +19721,10 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sidebar\"><!-- Reference: https://www.gethalfmoon.com/docs/sidebar --><div class=\"sidebar-menu\"><h5 class=\"sidebar-title\">RP Dashboard</h5><div class=\"sidebar-divider\"></div><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-transparent justify-content-start mr-0\"><!-- bg-transparent = background-color: transparent, justify-content-start = justify-content: flex-start, mr-0 = margin-right: 0 --><i class=\"fas fa-tachometer-alt\" aria-hidden=\"true\"></i></span> Dashboard </a><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-transparent justify-content-start mr-0\"><!-- bg-transparent = background-color: transparent, justify-content-start = justify-content: flex-start, mr-0 = margin-right: 0 --><i class=\"fas fa-trophy\" aria-hidden=\"true\"></i></span> Leaderboards </a><br><h5 class=\"sidebar-title\">Resources</h5><div class=\"sidebar-divider\"></div><a href=\"/guilds\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-primary text-white rounded-circle\"><!-- bg-primary = background-color: var(--primary-color), text-white = color: white, rounded-circle = border-radius: 50% --><i class=\"fab fa-fort-awesome\" aria-hidden=\"true\"></i></span> Guilds </a><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-success text-dark rounded-circle\"><!-- bg-success = background-color: var(--success-color), text-dark = color: var(--lm-base-text-color), rounded-circle = border-radius: 50% --><i class=\"fas fa-users\" aria-hidden=\"true\"></i></span> Players </a><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-secondary text-dark rounded-circle\"><!-- bg-secondary = background-color: var(--secondary-color), text-dark = color: var(--lm-base-text-color), rounded-circle = border-radius: 50% --><i class=\"fas fa-map-marked-alt\" aria-hidden=\"true\"></i></span> Map </a><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-danger text-white rounded-circle\"><!-- bg-danger = background-color: var(--danger-color), text-white = color: white, rounded-circle = border-radius: 50% --><i class=\"fas fa-chevron-left\" aria-hidden=\"true\"></i></span> Back to Everneth.com </a></div></div>", 1);
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sidebar\"><!-- Reference: https://www.gethalfmoon.com/docs/sidebar --><div class=\"sidebar-menu\"><h5 class=\"sidebar-title\">RP Dashboard</h5><div class=\"sidebar-divider\"></div><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-transparent justify-content-start mr-0\"><!-- bg-transparent = background-color: transparent, justify-content-start = justify-content: flex-start, mr-0 = margin-right: 0 --><i class=\"fas fa-tachometer-alt\" aria-hidden=\"true\"></i></span> Dashboard </a><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-transparent justify-content-start mr-0\"><!-- bg-transparent = background-color: transparent, justify-content-start = justify-content: flex-start, mr-0 = margin-right: 0 --><i class=\"fas fa-trophy\" aria-hidden=\"true\"></i></span> Leaderboards </a><br><h5 class=\"sidebar-title\">Resources</h5><div class=\"sidebar-divider\"></div><a href=\"/guilds\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-primary text-white rounded-circle\"><!-- bg-primary = background-color: var(--primary-color), text-white = color: white, rounded-circle = border-radius: 50% --><i class=\"fab fa-fort-awesome\" aria-hidden=\"true\"></i></span> Guilds </a><a href=\"/players\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-success text-dark rounded-circle\"><!-- bg-success = background-color: var(--success-color), text-dark = color: var(--lm-base-text-color), rounded-circle = border-radius: 50% --><i class=\"fas fa-users\" aria-hidden=\"true\"></i></span> Players </a><a href=\"/map\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-secondary text-dark rounded-circle\"><!-- bg-secondary = background-color: var(--secondary-color), text-dark = color: var(--lm-base-text-color), rounded-circle = border-radius: 50% --><i class=\"fas fa-map-marked-alt\" aria-hidden=\"true\"></i></span> Map </a><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-danger text-white rounded-circle\"><!-- bg-danger = background-color: var(--danger-color), text-white = color: white, rounded-circle = border-radius: 50% --><i class=\"fas fa-chevron-left\" aria-hidden=\"true\"></i></span> Back to Everneth.com </a></div></div>", 1);
 
 var _hoisted_5 = {
-  "class": "content-wrapper"
+  "class": "content-wrapper p-10"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Nav = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Nav");
@@ -27505,6 +27548,32 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Map.vue":
+/*!************************************!*\
+  !*** ./resources/js/Pages/Map.vue ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Map_vue_vue_type_template_id_6ffb2f43__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Map.vue?vue&type=template&id=6ffb2f43 */ "./resources/js/Pages/Map.vue?vue&type=template&id=6ffb2f43");
+/* harmony import */ var _mnt_c_Users_Mike_source_repos_roleplay_app_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+const script = {}
+
+;
+const __exports__ = /*#__PURE__*/(0,_mnt_c_Users_Mike_source_repos_roleplay_app_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Map_vue_vue_type_template_id_6ffb2f43__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Map.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Players.vue":
 /*!****************************************!*\
   !*** ./resources/js/Pages/Players.vue ***!
@@ -27785,6 +27854,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Home.vue?vue&type=template&id=6a63e488 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Home.vue?vue&type=template&id=6a63e488");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/Map.vue?vue&type=template&id=6ffb2f43":
+/*!******************************************************************!*\
+  !*** ./resources/js/Pages/Map.vue?vue&type=template&id=6ffb2f43 ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Map_vue_vue_type_template_id_6ffb2f43__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Map_vue_vue_type_template_id_6ffb2f43__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Map.vue?vue&type=template&id=6ffb2f43 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Map.vue?vue&type=template&id=6ffb2f43");
 
 
 /***/ }),
@@ -28109,6 +28194,8 @@ var map = {
 	"./Guilds.vue": "./resources/js/Pages/Guilds.vue",
 	"./Home": "./resources/js/Pages/Home.vue",
 	"./Home.vue": "./resources/js/Pages/Home.vue",
+	"./Map": "./resources/js/Pages/Map.vue",
+	"./Map.vue": "./resources/js/Pages/Map.vue",
 	"./Players": "./resources/js/Pages/Players.vue",
 	"./Players.vue": "./resources/js/Pages/Players.vue",
 	"./Settings": "./resources/js/Pages/Settings.vue",
