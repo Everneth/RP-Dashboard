@@ -4,3 +4,28 @@
 @import '~@fortawesome/fontawesome-free/css/brands';
 
 @import '~halfmoon/css/halfmoon-variables.min.css';
+
+
+
+.dark-mode .table tbody tr.guild-yellow, .dark-mode .table-bordered tbody tr.guild-yellow, .dark-mode .table-inner-bordered tbody tr.guild-yellow, .dark-mode .table-striped tbody tr.guild-yellow {
+    color: #ffcf00;
+    background-color: #302c1d;
+    border-color: #8e7710;
+}
+.table tbody tr.guild-yellow, .table-bordered tbody tr.guild-yellow, .table-inner-bordered tbody tr.guild-yellow, .table-striped tbody tr.guild-yellow {
+    color: rgba(0,0,0,.85);
+    background-color: #fff6cc;
+    border-color: #ffcf00;
+}
+
+.dark-mode .table tbody tr.guild-red, .dark-mode .table-bordered tbody tr.guild-red, .dark-mode .table-inner-bordered tbody tr.guild-red, .dark-mode .table-striped tbody tr.guild-red {
+    color: #ff4d4f;
+    background-color: #301923;
+    border-color: #8c0e2e;
+}
+
+.table tbody tr.guild-red, .table-bordered tbody tr.guild-red, .table-inner-bordered tbody tr.guild-red, .table-striped tbody tr.guild-red {
+    color: rgba(0,0,0,.85);
+    background-color: #f8d0d9;
+    border-color: #ed586c;
+}

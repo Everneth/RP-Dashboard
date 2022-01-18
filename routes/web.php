@@ -39,9 +39,14 @@ Route::get('/players', function () {
     ]);
 });
 
-Route::get('guilds', function(){
-    return view('guilds', [
-        'guilds' => Guild::all()
+Route::get('/guilds', function () {
+    return Inertia::render('Guilds', [
+        'guilds' => Guild::query()
+        ->when(Request::input('search'), function ($query, $search){
+            $query->where('guild_name', 'like', "%{$search}%");
+        })
+        ->paginate(20)
+        ->withQueryString()
     ]);
 });
 

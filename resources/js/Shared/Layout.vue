@@ -32,7 +32,7 @@
     <br />
     <h5 class="sidebar-title">Resources</h5>
     <div class="sidebar-divider"></div>
-    <a href="#" class="sidebar-link sidebar-link-with-icon">
+    <a href="/guilds" class="sidebar-link sidebar-link-with-icon">
       <span class="sidebar-icon bg-primary text-white rounded-circle"> <!-- bg-primary = background-color: var(--primary-color), text-white = color: white, rounded-circle = border-radius: 50% --> 
         <i class="fab fa-fort-awesome" aria-hidden="true"></i>
       </span>
