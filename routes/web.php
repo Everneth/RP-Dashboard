@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 
 use App\Models\Player;
 use App\Models\Guild;
+
+use Illuminate\Support\Facades\Redis;
+use Illuminate\Support\Facades\Request;
 use Inertia\Inertia;
 
 /*
@@ -26,9 +29,13 @@ Route::get('/settings', function () {
 });
 
 Route::get('/players', function () {
-    
     return Inertia::render('Players', [
-        'players' => Player::paginate(20)
+        'players' => Player::query()
+        ->when(Request::input('search'), function ($query, $search){
+            $query->where('player_name', 'like', "%{$search}%");
+        })
+        ->paginate(20)
+        ->withQueryString()
     ]);
 });
 
