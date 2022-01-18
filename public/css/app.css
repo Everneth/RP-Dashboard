@@ -4654,3 +4654,87 @@ The above notice must be included in its entirety when this file is used.
     background-color: #f8d0d9;
     border-color: #ed586c;
 }
+
+.dark-mode .table tbody tr.guild-black, .dark-mode .table-bordered tbody tr.guild-black, .dark-mode .table-inner-bordered tbody tr.guild-black, .dark-mode .table-striped tbody tr.guild-black {
+    color: #acacac;
+    background-color: #101010;
+    border-color: #2c2c2c;
+}
+
+.table tbody tr.guild-black, .table-bordered tbody tr.guild-black, .table-inner-bordered tbody tr.guild-black, .table-striped tbody tr.guild-black {
+    color: rgba(0,0,0,.85);
+    background-color: #d1d1d1;
+    border-color: #858585;
+}
+
+.dark-mode .badge.badge-guild-black {
+    color: #acacac;
+    background-color: #101010;
+    border-color: #2c2c2c;
+}
+
+.badge {
+    display: inline-block;
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    padding: 0.2rem 0.8rem;
+    color: rgba(0,0,0,.85);
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.4rem;
+}
+
+.badge.badge-guild-blue, .dark-mode .badge.badge-guild-blue {
+    color: #fff;
+    background-color: #5555ff;
+    border-color: #5555ff;
+}
+
+.dark-mode .badge.badge-guild-green, .dark-mode .badge.badge-guild-green {
+    color: rgba(0,0,0,.85);
+    background-color: #55ff55;
+    border-color: #55ff55;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
+.badge.badge-guild-green {
+    color: rgba(0,0,0,.85);
+    background-color: #55ff55;
+    border-color: #55ff55;
+}
+
+.dark-mode .badge.badge-guild-red {
+    color: #fff;
+    background-color: #ff5555;
+    border-color: #ff5555;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
+.badge.badge-guild-red {
+    color: #fff;
+    background-color: #ff5555;
+    border-color: #ff5555;
+}
+
+.badge.badge-guild-yellow {
+    color: rgba(0,0,0,.85);
+    background-color: #ffff55;
+    border-color: #ffff55;
+}
+
+.dark-mode .badge.badge-guild-yellow {
+    background-color: #ffff55;
+    border-color: #ffff55;
+}
+
+.badge.badge-guild-purple {
+    color: rgba(0,0,0,.85);
+    background-color: #aa00aa;
+    border-color: #aa00aa;
+}
+
+.dark-mode .badge.badge-guild-purple {
+    background-color: #aa00aa;
+    border-color: #aa00aa;
+}
