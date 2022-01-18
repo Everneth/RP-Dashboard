@@ -28,6 +28,10 @@ Route::get('/settings', function () {
     return Inertia::render('Settings');
 });
 
+Route::get('/map', function () {
+    return Inertia::render('Map');
+});
+
 Route::get('/players', function () {
     return Inertia::render('Players', [
         'players' => Player::query()

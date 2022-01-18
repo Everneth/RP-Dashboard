@@ -38,13 +38,13 @@
       </span>
       Guilds
     </a>
-    <a href="#" class="sidebar-link sidebar-link-with-icon">
+    <a href="/players" class="sidebar-link sidebar-link-with-icon">
       <span class="sidebar-icon bg-success text-dark rounded-circle"> <!-- bg-success = background-color: var(--success-color), text-dark = color: var(--lm-base-text-color), rounded-circle = border-radius: 50% -->
         <i class="fas fa-users" aria-hidden="true"></i>
       </span>
       Players
     </a>
-    <a href="#" class="sidebar-link sidebar-link-with-icon">
+    <a href="/map" class="sidebar-link sidebar-link-with-icon">
       <span class="sidebar-icon bg-secondary text-dark rounded-circle"> <!-- bg-secondary = background-color: var(--secondary-color), text-dark = color: var(--lm-base-text-color), rounded-circle = border-radius: 50% -->
         <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
       </span>
