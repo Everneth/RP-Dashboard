@@ -19396,12 +19396,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Nav */ "./resources/js/Shared/Nav.vue");
 /* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+/* harmony import */ var halfmoon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! halfmoon */ "./node_modules/halfmoon/index.js");
+/* harmony import */ var halfmoon__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(halfmoon__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     Nav: _Nav__WEBPACK_IMPORTED_MODULE_0__["default"],
     Link: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__
+  },
+  methods: {
+    toggleSidebar: function toggleSidebar() {
+      halfmoon__WEBPACK_IMPORTED_MODULE_2___default().toggleSidebar();
+    }
   }
 });
 
@@ -19714,22 +19722,20 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "sidebar-overlay",
-  onclick: "halfmoon.toggleSidebar()"
-}, null, -1
-/* HOISTED */
-);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sidebar\"><!-- Reference: https://www.gethalfmoon.com/docs/sidebar --><div class=\"sidebar-menu\"><h5 class=\"sidebar-title\">RP Dashboard</h5><div class=\"sidebar-divider\"></div><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-transparent justify-content-start mr-0\"><!-- bg-transparent = background-color: transparent, justify-content-start = justify-content: flex-start, mr-0 = margin-right: 0 --><i class=\"fas fa-tachometer-alt\" aria-hidden=\"true\"></i></span> Dashboard </a><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-transparent justify-content-start mr-0\"><!-- bg-transparent = background-color: transparent, justify-content-start = justify-content: flex-start, mr-0 = margin-right: 0 --><i class=\"fas fa-trophy\" aria-hidden=\"true\"></i></span> Leaderboards </a><br><h5 class=\"sidebar-title\">Resources</h5><div class=\"sidebar-divider\"></div><a href=\"/guilds\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-primary text-white rounded-circle\"><!-- bg-primary = background-color: var(--primary-color), text-white = color: white, rounded-circle = border-radius: 50% --><i class=\"fab fa-fort-awesome\" aria-hidden=\"true\"></i></span> Guilds </a><a href=\"/players\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-success text-dark rounded-circle\"><!-- bg-success = background-color: var(--success-color), text-dark = color: var(--lm-base-text-color), rounded-circle = border-radius: 50% --><i class=\"fas fa-users\" aria-hidden=\"true\"></i></span> Players </a><a href=\"/map\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-secondary text-dark rounded-circle\"><!-- bg-secondary = background-color: var(--secondary-color), text-dark = color: var(--lm-base-text-color), rounded-circle = border-radius: 50% --><i class=\"fas fa-map-marked-alt\" aria-hidden=\"true\"></i></span> Map </a><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-danger text-white rounded-circle\"><!-- bg-danger = background-color: var(--danger-color), text-white = color: white, rounded-circle = border-radius: 50% --><i class=\"fas fa-chevron-left\" aria-hidden=\"true\"></i></span> Back to Everneth.com </a></div></div>", 1);
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"sidebar\"><!-- Reference: https://www.gethalfmoon.com/docs/sidebar --><div class=\"sidebar-menu\"><h5 class=\"sidebar-title\">RP Dashboard</h5><div class=\"sidebar-divider\"></div><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-transparent justify-content-start mr-0\"><!-- bg-transparent = background-color: transparent, justify-content-start = justify-content: flex-start, mr-0 = margin-right: 0 --><i class=\"fas fa-tachometer-alt\" aria-hidden=\"true\"></i></span> Dashboard </a><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-transparent justify-content-start mr-0\"><!-- bg-transparent = background-color: transparent, justify-content-start = justify-content: flex-start, mr-0 = margin-right: 0 --><i class=\"fas fa-trophy\" aria-hidden=\"true\"></i></span> Leaderboards </a><br><h5 class=\"sidebar-title\">Resources</h5><div class=\"sidebar-divider\"></div><a href=\"/guilds\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-primary text-white rounded-circle\"><!-- bg-primary = background-color: var(--primary-color), text-white = color: white, rounded-circle = border-radius: 50% --><i class=\"fab fa-fort-awesome\" aria-hidden=\"true\"></i></span> Guilds </a><a href=\"/players\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-success text-dark rounded-circle\"><!-- bg-success = background-color: var(--success-color), text-dark = color: var(--lm-base-text-color), rounded-circle = border-radius: 50% --><i class=\"fas fa-users\" aria-hidden=\"true\"></i></span> Players </a><a href=\"/map\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-secondary text-dark rounded-circle\"><!-- bg-secondary = background-color: var(--secondary-color), text-dark = color: var(--lm-base-text-color), rounded-circle = border-radius: 50% --><i class=\"fas fa-map-marked-alt\" aria-hidden=\"true\"></i></span> Map </a><a href=\"#\" class=\"sidebar-link sidebar-link-with-icon\"><span class=\"sidebar-icon bg-danger text-white rounded-circle\"><!-- bg-danger = background-color: var(--danger-color), text-white = color: white, rounded-circle = border-radius: 50% --><i class=\"fas fa-chevron-left\" aria-hidden=\"true\"></i></span> Back to Everneth.com </a></div></div>", 1);
-
-var _hoisted_5 = {
+var _hoisted_4 = {
   "class": "content-wrapper p-10"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Nav = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Nav");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modals go here "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Reference: https://www.gethalfmoon.com/docs/modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page wrapper start "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Sticky alerts (toasts), empty container "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Nav), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Sidebar overlay "), _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Sidebar start "), _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Sidebar end "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Content wrapper start "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Content wrapper end ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page wrapper end ")], 2112
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modals go here "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Reference: https://www.gethalfmoon.com/docs/modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page wrapper start "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Sticky alerts (toasts), empty container "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Nav), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Sidebar overlay "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "sidebar-overlay",
+    onClick: _cache[0] || (_cache[0] = function () {
+      return $options.toggleSidebar && $options.toggleSidebar.apply($options, arguments);
+    })
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Sidebar start "), _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Sidebar end "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Content wrapper start "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Content wrapper end ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page wrapper end ")], 2112
   /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */
   );
 }
@@ -19850,6 +19856,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
 /* harmony import */ var _inertiajs_progress__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @inertiajs/progress */ "./node_modules/@inertiajs/progress/dist/index.js");
 /* harmony import */ var _Shared_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Shared/Layout */ "./resources/js/Shared/Layout.vue");
+/* harmony import */ var halfmoon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! halfmoon */ "./node_modules/halfmoon/index.js");
+/* harmony import */ var halfmoon__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(halfmoon__WEBPACK_IMPORTED_MODULE_4__);
+
 
 
 
@@ -19860,6 +19869,16 @@ __webpack_require__(/*! halfmoon/css/halfmoon-variables.min.css */ "./node_modul
 (0,_inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__.createInertiaApp)({
   resolve: function resolve(name) {
     var page = __webpack_require__("./resources/js/Pages sync recursive ^\\.\\/.*$")("./".concat(name))["default"];
+    /*
+    Or,
+    Include the following (no variables, supports IE11):
+    require("halfmoon/css/halfmoon.min.css");
+    */
+    // Import JS library
+    //let halfmoon = require("halfmoon");
+
+
+    halfmoon__WEBPACK_IMPORTED_MODULE_4___default().onDOMContentLoaded();
 
     if (page.layout === undefined) {
       page.layout = _Shared_Layout__WEBPACK_IMPORTED_MODULE_3__["default"];
@@ -19882,18 +19901,7 @@ __webpack_require__(/*! halfmoon/css/halfmoon-variables.min.css */ "./node_modul
     return "My App - ".concat(_title);
   }
 });
-_inertiajs_progress__WEBPACK_IMPORTED_MODULE_2__.InertiaProgress.init(); // Include CSS file
-
-/*
-  Or,
-  Include the following (no variables, supports IE11):
-  require("halfmoon/css/halfmoon.min.css");
-*/
-// Import JS library
-
-var halfmoon = __webpack_require__(/*! halfmoon */ "./node_modules/halfmoon/index.js");
-
-halfmoon.onDOMContentLoaded();
+_inertiajs_progress__WEBPACK_IMPORTED_MODULE_2__.InertiaProgress.init();
 
 /***/ }),
 

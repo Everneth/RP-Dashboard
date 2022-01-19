@@ -9,7 +9,7 @@
     <div class="sticky-alerts"></div>
             <Nav />
     <!-- Sidebar overlay -->
-    <div class="sidebar-overlay" onclick="halfmoon.toggleSidebar()"></div>
+    <div class="sidebar-overlay" @click="toggleSidebar"></div>
 
     <!-- Sidebar start -->
     <div class="sidebar">
@@ -72,8 +72,12 @@
 <script>
 import Nav from "./Nav";
 import Link from '@inertiajs/inertia-vue3';
+import halfmoon from 'halfmoon';
 
 export default {
-  components: { Nav, Link }  
+  components: { Nav, Link },  
+  methods: { toggleSidebar() {
+    halfmoon.toggleSidebar();
+  } }
 };
 </script>
