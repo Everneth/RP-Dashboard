@@ -6,6 +6,7 @@ use App\Models\Player;
 use App\Models\Guild;
 
 use Illuminate\Support\Facades\Redis;
+use App\Http\Controllers\PlayerController;
 use Illuminate\Support\Facades\Request;
 use Inertia\Inertia;
 
@@ -42,6 +43,8 @@ Route::get('/players', function () {
         ->withQueryString()
     ]);
 });
+
+Route::get('players/{id}', [PlayerController::class, 'getByUuid']);
 
 Route::get('/guilds', function () {
     return Inertia::render('Guilds', [

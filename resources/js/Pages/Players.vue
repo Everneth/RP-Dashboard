@@ -15,7 +15,7 @@
         </thead>
         <tbody> 
             <tr v-for="player in players.data" :key="player.player_id">
-                <td>{{ player.player_name }} <a href="#" class="badge">Guild Tag PH</a></td>
+                <td><a :href="'players/' + player.player_uuid">{{ player.player_name }}</a> <a href="#" class="badge">Guild Tag PH</a></td>
                 <td>{{ player.player_uuid }}</td>
                 <td>{{ player.discord_id }}</td>
             </tr>
