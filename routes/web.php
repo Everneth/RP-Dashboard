@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\GuildController;
 use Illuminate\Support\Facades\Route;
 
 use App\Models\Player;
@@ -45,6 +46,8 @@ Route::get('/players', function () {
 });
 
 Route::get('players/{id}', [PlayerController::class, 'getByUuid']);
+
+Route::get('guilds/{id}', [GuildController::class, 'getGuildById']);
 
 Route::get('/guilds', function () {
     return Inertia::render('Guilds', [

@@ -16,7 +16,7 @@
         </thead>
         <tbody> 
             <tr v-for="guild in guilds.data" :key="guild.guild_id">
-                <td>{{ guild.guild_name }}</td>
+                <td><a :href="'guilds/' + guild.guild_id">{{ guild.guild_name }}</a></td>
                 <td><span class="badge" :class="'badge-guild-' + guild.guild_primary_color">{{ guild.guild_primary_color }}</span> 
                 <span class="badge" :class="'badge-guild-' + guild.guild_secondary_color">{{ guild.guild_secondary_color }}</span></td>
                 <td>{{ guild.guild_created_date }}</td>
