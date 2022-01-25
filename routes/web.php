@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\GuildController;
 use Illuminate\Support\Facades\Route;
 
@@ -44,6 +45,8 @@ Route::get('/players', function () {
         ->withQueryString()
     ]);
 });
+
+Route::get('admin/index', [AdminController::class, 'index']);
 
 Route::get('players/{id}', [PlayerController::class, 'getByUuid']);
 
