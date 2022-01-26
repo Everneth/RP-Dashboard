@@ -40,7 +40,7 @@
     </a>
     <a href="/players" class="sidebar-link sidebar-link-with-icon">
       <span class="sidebar-icon bg-success text-dark rounded-circle"> <!-- bg-success = background-color: var(--success-color), text-dark = color: var(--lm-base-text-color), rounded-circle = border-radius: 50% -->
-        <i class="fas fa-users" aria-hidden="true"></i>
+        <i class="fas fa-gamepad" aria-hidden="true"></i>
       </span>
       Players
     </a>
@@ -55,6 +55,26 @@
         <i class="fas fa-chevron-left" aria-hidden="true"></i>
       </span>
       Back to Everneth.com
+    </a>
+    <h5 class="sidebar-title">Admin</h5>
+    <div class="sidebar-divider"></div>
+      <a href="/admin/index" class="sidebar-link sidebar-link-with-icon">
+      <span class="sidebar-icon bg-primary text-white rounded-circle"> <!-- bg-primary = background-color: var(--danger-color), text-white = color: white, rounded-circle = border-radius: 50% -->
+        <i class="fas fa-feather" aria-hidden="true"></i>
+      </span>
+      Index
+    </a>
+    <a href="/admin/users" class="sidebar-link sidebar-link-with-icon">
+      <span class="sidebar-icon bg-primary text-white rounded-circle"> <!-- bg-primary = background-color: var(--danger-color), text-white = color: white, rounded-circle = border-radius: 50% -->
+        <i class="fas fa-users" aria-hidden="true"></i>
+      </span>
+      Users
+    </a>
+    <a href="/admin/logs" class="sidebar-link sidebar-link-with-icon">
+      <span class="sidebar-icon bg-primary text-white rounded-circle"> <!-- bg-primary = background-color: var(--danger-color), text-white = color: white, rounded-circle = border-radius: 50% -->
+        <i class="fas fa-hard-hat" aria-hidden="true"></i>
+      </span>
+      Logs
     </a>
   </div>
     </div>

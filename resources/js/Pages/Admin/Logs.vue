@@ -1,6 +1,6 @@
 <template>
 
-    <h1>Index</h1>
+    <h1>Logs</h1>
 
 </template>
 

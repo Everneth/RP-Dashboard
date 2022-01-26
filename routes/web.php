@@ -48,6 +48,10 @@ Route::get('/players', function () {
 
 Route::get('admin/index', [AdminController::class, 'index']);
 
+Route::get('admin/users', [AdminController::class, 'users']);
+
+Route::get('admin/logs', [AdminController::class, 'logs']);
+
 Route::get('players/{id}', [PlayerController::class, 'getByUuid']);
 
 Route::get('guilds/{id}', [GuildController::class, 'getGuildById']);
