@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Inertia\Inertia;
+use Illuminate\Support\Facades\Storage;
 
 class AdminController extends Controller
 {
@@ -19,6 +20,10 @@ class AdminController extends Controller
 
     public function logs()
     {
-        return Inertia::render('Admin/Logs');
+
+        $json = Storage::disk('logs')->get('task.log');
+        $json = json_decode($json, true);
+        //dd($json);
+        return Inertia::render('Admin/Logs', ['data' => $json]);
     }
 }
