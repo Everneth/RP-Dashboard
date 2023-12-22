@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 use Illuminate\Support\Facades\Storage;
+use App\Models\Medal;
 
 class AdminController extends Controller
 {
@@ -16,6 +17,12 @@ class AdminController extends Controller
     public function users()
     {
         return Inertia::render('Admin/Users');
+    }
+
+    public function medals()
+    {
+        $medals = Medal::all();
+        return Inertia::render('Admin/Medals', ['medals' => $medals]);
     }
 
     public function logs()

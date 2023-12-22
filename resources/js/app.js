@@ -4,22 +4,20 @@ import { InertiaProgress } from "@inertiajs/progress";
 import Layout from "./Shared/Layout";
 import halfmoon from "halfmoon";
 
-require("halfmoon/css/halfmoon-variables.min.css");
-
 createInertiaApp({
   resolve: name => {
     let page = require(`./Pages/${name}`).default;
 
     /*
   Or,
-  Include the following (no variables, supports IE11):
+  Include the following (no variables, supports IE11):*/
   require("halfmoon/css/halfmoon.min.css");
-*/
+
 
 // Import JS library
 //let halfmoon = require("halfmoon");
 
-halfmoon.onDOMContentLoaded();
+;
 
     if (page.layout === undefined) {
       page.layout = Layout;

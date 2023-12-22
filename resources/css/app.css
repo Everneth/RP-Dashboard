@@ -3,7 +3,7 @@
 @import '~@fortawesome/fontawesome-free/css/solid';
 @import '~@fortawesome/fontawesome-free/css/brands';
 
-@import '~halfmoon/css/halfmoon-variables.min.css';
+@import '~halfmoon/css/halfmoon.min.css';
 
 
 
@@ -112,4 +112,13 @@
 .dark-mode .badge.badge-guild-purple {
     background-color: #aa00aa;
     border-color: #500150;
+}
+
+.badge.badge-role {
+    color: #fff;
+    background-color: #2c2c2c;
+    border-color: #525252;
+}
+.fa.badge-role-king {
+    color: #9f48d4;
 }

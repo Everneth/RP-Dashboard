@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Models\Player;
 use App\Models\Guild;
+use App\Models\Medal;
 
 use Illuminate\Support\Facades\Redis;
 use App\Http\Controllers\PlayerController;
@@ -49,6 +50,8 @@ Route::get('/players', function () {
 Route::get('admin/index', [AdminController::class, 'index']);
 
 Route::get('admin/users', [AdminController::class, 'users']);
+
+Route::get('admin/medals', [AdminController::class, 'medals']);
 
 Route::get('admin/logs', [AdminController::class, 'logs']);
 
