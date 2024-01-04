@@ -209,7 +209,7 @@
 <script setup>
 import Pagination from '../Shared/Pagination';
 import { ref, watch } from "vue";
-import { Inertia } from "@inertiajs/inertia";
+import { router } from "@inertiajs/vue3";
 
 let props = defineProps({
     player: Object,

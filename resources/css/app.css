@@ -122,3 +122,11 @@
 .fa.badge-role-king {
     color: #9f48d4;
 }
+
+.btn.btn-discord {
+    background-color: #7289da;
+}
+
+.btn.btn-discord:hover {
+    background-color: #99AAB5;
+}

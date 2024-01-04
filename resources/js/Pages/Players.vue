@@ -29,7 +29,7 @@
 <script setup>
 import Pagination from '../Shared/Pagination';
 import { ref, watch } from "vue";
-import { Inertia } from "@inertiajs/inertia";
+import { router } from "@inertiajs/vue3";
 
 let props = defineProps({
     players: Object
@@ -38,7 +38,7 @@ let props = defineProps({
 let search = ref('');
 
 watch(search, value => {
-    Inertia.get('/players', { search: value }, {
+    router.get('/players', { search: value }, {
         preserveState: true
     });
 });

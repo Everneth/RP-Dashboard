@@ -53,7 +53,9 @@ Route::get('admin/users', [AdminController::class, 'users']);
 
 Route::get('admin/medals', [AdminController::class, 'medals']);
 
-Route::get('admin/logs', [AdminController::class, 'logs']);
+Route::get('admin/medals/new', [AdminController::class, 'createMedal']);
+
+//Route::get('admin/logs', [AdminController::class, 'logs']);
 
 Route::get('players/{id}', [PlayerController::class, 'getByUuid']);
 

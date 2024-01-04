@@ -25,6 +25,11 @@ class AdminController extends Controller
         return Inertia::render('Admin/Medals', ['medals' => $medals]);
     }
 
+    public function createMedal()
+    {
+        return Inertia::render('Admin/Medals/New');
+    }
+
     public function logs()
     {
 

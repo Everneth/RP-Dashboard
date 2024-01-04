@@ -59,7 +59,7 @@ return [
         ],
 
     ],
-
+    
     /*
     |--------------------------------------------------------------------------
     | Symbolic Links
@@ -73,7 +73,7 @@ return [
 
     'links' => [
         public_path('storage') => storage_path('app/public'),
-        public_path('uploads') => storage_path('app/public/storage/app/public/uploads'),
+        public_path('uploads') => storage_path('app/public/uploads'),
     ],
 
 ];

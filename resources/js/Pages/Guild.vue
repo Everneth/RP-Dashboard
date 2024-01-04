@@ -150,7 +150,6 @@
 <script setup>
 import Pagination from "../Shared/Pagination";
 import { ref, watch } from "vue";
-import { Inertia } from "@inertiajs/inertia";
 
 let props = defineProps({
   guild: Object,
