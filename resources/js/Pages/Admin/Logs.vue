@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import Layout from "../../Shared/Layout";
+import Layout from "/resources/js/Shared/Layout.vue";
 
 export default {
     components: { Layout },

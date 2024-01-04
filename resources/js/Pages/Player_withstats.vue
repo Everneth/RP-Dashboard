@@ -207,7 +207,7 @@
 </template>
 
 <script setup>
-import Pagination from '../Shared/Pagination';
+import Pagination from '/resources/js/Shared/Pagination.vue';
 import { ref, watch } from "vue";
 import { router } from "@inertiajs/vue3";
 

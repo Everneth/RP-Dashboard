@@ -148,7 +148,7 @@
 </template>
 
 <script setup>
-import Pagination from "../Shared/Pagination";
+import Pagination from "/resources/js/Shared/Pagination.vue";
 import { ref, watch } from "vue";
 
 let props = defineProps({
