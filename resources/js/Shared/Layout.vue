@@ -45,7 +45,7 @@
           <h6 class="sidebar-header">Admin</h6>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/admin/medals" :class="{'active': $page.component == 'Admin/Medals'}">Medals</a>
+          <a class="nav-link" href="/admin/medals/list" :class="{'active': $page.component == 'Admin/Medals'}">Medals</a>
         </li>
       </ul>
     </div>

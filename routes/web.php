@@ -51,9 +51,15 @@ Route::get('admin/index', [AdminController::class, 'index']);
 
 Route::get('admin/users', [AdminController::class, 'users']);
 
-Route::get('admin/medals', [AdminController::class, 'medals']);
+Route::get('admin/medals/list', [AdminController::class, 'medals']);
 
-Route::get('admin/medals/new', [AdminController::class, 'createMedal']);
+Route::get('admin/medals/create', [AdminController::class, 'createMedal']);
+
+Route::post('admin/medals/create', [AdminController::class, 'addMedal']);
+
+Route::get('admin/medals/{medal}/edit', [AdminController::class, 'editMedal']);
+
+Route::put('admin/medals/update/{id}', [AdminController::class, 'updateMedal']);
 
 //Route::get('admin/logs', [AdminController::class, 'logs']);
 
